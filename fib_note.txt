@@ -1,0 +1,8 @@
+
+fibs = 1 : 1 : zipWith (+) fibs (tail fibs)
+
+So I think it works because tail fibs is evaluated each time
+
+Also note that this is fast, as values are cached. And of course only the ones used are ever calculated (because Haskell).
+
+
