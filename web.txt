@@ -1,0 +1,3 @@
+
+http://jekor.com/article/is-haskell-a-good-choice-for-web-applications
+
